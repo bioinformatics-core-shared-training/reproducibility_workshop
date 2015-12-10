@@ -6,12 +6,12 @@
 * Target writing completion date.
 
 ### Where to publish it
-* Suitable high-citation journal that invites this type of paper
-* Open Access(?)
+* Identify a suitable high-citation journal that invites this type of paper
+* Open Access (if not why not?) How pay charges (splitting the check)?
 * Any Supplementary items? e.g. example Dockerfiles?
 * 
 
 ### Roles (incl leadership)
 * Writing about specific solutions/tools
-* Author order
+* Author order and organisation details
 * Paper review & check
