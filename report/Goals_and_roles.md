@@ -6,6 +6,5 @@
 * Suitable high-citation journal that invites this type of paper
 * Open Access(?)
 * Any Supplementary items?
-
 ### Roles (incl leadership)
 * Writing about specific solutions/tools
