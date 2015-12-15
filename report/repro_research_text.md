@@ -28,8 +28,9 @@ Greater stability in our confidence in bioinformatic analyses can come from grea
 #### Problem Areas ####
 
   - versions of software. Programs by their very nature evolve and develop with new features and different libraries being developed and used. Whilst this is great as far as developing new features and capabilities, it comes at the cost of potentially wrecking backwards compatibility with previous versions and delivering different results.
-  - closed-source packages
-  - changes in databases and other online resources lead to changes in results
+  - It is extremely important for software authors/package maintainers to be scrupulous in documenting changes occurring in new releases of packages, especially if it may break reproducibility.
+  - closed-source packages. Versioning can cause ven bigger headaches with closed-source software. Vendors can completely change the algorithms inside the 'Black box' and the user will not know what has changed and will be unable to discover (e.g. by access to the source code) it either.
+  - changes in databases and other online resources lead to changes in results. There are other changes that are beyond a researchers influence. Gene Ontologies are updated and can change from the time of the author's research based upon other publications that curators have used (reflecting the best knowledge currently available). Genome data changes as e.g. Human Genome concensuses that are updated and annotations (both manually curated and compuationally generated) change accordingly.
   - assumptions underlying analysis
   - fragile analyses
   - cost of reproducibility, lack of benefits
