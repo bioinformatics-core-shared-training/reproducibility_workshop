@@ -27,7 +27,7 @@ Greater stability in our confidence in bioinformatic analyses can come from grea
 
 #### Problem Areas ####
 
-  - versions of software
+  - versions of software. Programs by their very nature evolve and develop with new features and different libraries being developed and used. Whilst this is great as far as developing new features and capabilities, it comes at the cost of potentially wrecking backwards compatibility with previous versions and delivering different results.
   - closed-source packages
   - changes in databases and other online resources lead to changes in results
   - assumptions underlying analysis
@@ -45,3 +45,8 @@ Greater stability in our confidence in bioinformatic analyses can come from grea
     - virtualization: Docker, VirtualBox
     - knitr, ipython, etc...
   - robust analysis methods (varied parameters, paired analyses, etc)
+
+### References ###
+Domesday Redux: The rescue of the BBC Domesday Project videodiscs, Jeffrey Darlington, Andy Finney and Adrian Pearce
+Publication Date: 30-July-2003, Publication: Ariadne Issue 36
+Originating URL: http://www.ariadne.ac.uk/issue36/tna/
