@@ -1,10 +1,14 @@
 ### Computational Reproducibility: Workshop Report ###
+Reproducible Research: A long and winding road.
 
 #### Introduction ####
-
+What do we mean by reproducibility? How do we define it? Why should we strive for it in our research?
   - motivation for reproducibility (cite Florian?)
   - cost/benefit analysis
-  - target audience: computational people, wet biologists, funders
+  Reproducibility does not come for free and , as can be seen later in this paper, can involve considerable effort and a broad skill-base to achieve it. It is therefore reasonable to question - is it worth it?
+There is some evidence supporting the concept that papers whose research is reproducible are more highly cited than those which are not.
+Greater stability in our confidence in bioinformatic analyses can come from greater robustness of preceding work given how this area of science is so heavily interdependant on derevations from previous annoted data.
+  - The target audience of this paper include the folloowing stakeholders: computational scientists, wet biologists and research funders. They have differing roles and rsponsibilities on the road to reproducible research but all are key to the endeavour.
 
 #### Levels of Reproducibility ####
 
