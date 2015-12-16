@@ -2,25 +2,26 @@
 Reproducible Research: A long and winding road.
 
 #### Introduction ####
-What do we mean by reproducibility? How do we define it? Why should we strive for it in our research?
+Reproducibility is often cited as a core tenet of the Scientific method. But what do we mean by reproducibility? How do we define it? Why and how should we strive for it in our research?
   - motivation for reproducibility (cite Florian?)
   - cost/benefit analysis
   Reproducibility does not come for free and , as can be seen later in this paper, can involve considerable effort and a broad skill-base to achieve it. It is therefore reasonable to question - is it worth it?
 There is some evidence supporting the concept that papers whose research is reproducible are more highly cited than those which are not.
-Greater stability in our confidence in bioinformatic analyses can come from greater robustness of preceding work given how this area of science is so heavily interdependant on derevations from previous annotated data.
+Greater stability in our confidence in bioinformatic analyses can come from greater robustness of preceding work given how this area of science is so heavily interdependant on derivations from previously annotated data.
   - The target audience of this paper include the folloowing stakeholders: computational scientists, wet biologists and research funders. They have differing roles and rsponsibilities on the road to reproducible research but all are key to the endeavour.
 
 #### Levels of Reproducibility ####
 
-  - computational audit-ability
+  - **computational auditability**
+  By computational auditablity we mean - is it possible to follow the tools and techniques used to analyse the data and derive broadly similar (if not identical) results and conclusions? This requires a certain measre of discipline in recording the 'big picture' of the study capturing not just the exact tools, techniques and data but the entire narrative i.e. the assumptions, decisions and reasoning  used in the analysis. Later we will explore tools that assist researchers in achieving this goal.
     - cannot reasonably reproduce, say, ENCODE
     - can leave a sufficiently clear audit/log trail
     - allows for scrutiny of 
-  - mechanical reproducibility
+  - **mechanical reproducibility**
     - reproduce figures/tables/numbers from raw data
     - does not imply correctness, but at least can see what was done
     - what duration are we targeting? 5 years? 10 years? 20? 50?  Will your Docker image still be runnable in 50 years?
-  - scientific reproducibility
+  - **scientific reproducibility**
     - arrive at same conclusions via different analysis paths
     - clearly a problem if your result depends on, say, a particular version of some software package
     - not clear what counts as "same conclusions": how much wiggle room is okay?
