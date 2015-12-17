@@ -2,12 +2,13 @@
 Reproducible Research: A long and winding road.
 
 #### Introduction ####
-Reproducibility is often cited as a core tenet of the Scientific method. But what do we mean by reproducibility? How do we define it? Why and how should we strive for it in our research?
+Reproducibility is often cited as a core tenet of the Scientific method; Indeed Einstein is quoted as saying "Insanity: doing the same thing over and over again and expecting different results." But what do we mean by reproducibility? How do we define it? Why and how should we strive for it in our research?
   - motivation for reproducibility (cite Florian?)
   - cost/benefit analysis
   Reproducibility does not come for free and , as can be seen later in this paper, can involve considerable effort and a broad skill-base to achieve it. It is therefore reasonable to question - is it worth it?
 There is some evidence supporting the concept that papers whose research is reproducible are more highly cited than those which are not.
-Greater stability in our confidence in bioinformatic analyses can come from greater robustness of preceding work given how this area of science is so heavily interdependant on derivations from previously annotated data.
+Reproducibility can also assist in techniques and tools to be repurposed to address new scientific questions which is another desirable research outcome.
+Greater stability in our confidence in conclusions drawn from bioinformatic analyses can come from greater robustness of preceding works given how this area of science is so heavily interdependant on derivations from previously annotated data and inferences.
   - The target audience of this paper include the folloowing stakeholders: computational scientists, wet biologists and research funders. They have differing roles and rsponsibilities on the road to reproducible research but all are key to the endeavour.
 
 #### Levels of Reproducibility ####
@@ -29,12 +30,14 @@ Greater stability in our confidence in bioinformatic analyses can come from grea
 #### Problem Areas ####
 
   - versions of software. Programs by their very nature evolve and develop with new features and different libraries being developed and used. Whilst this is great as far as developing new features and capabilities, it comes at the cost of potentially wrecking backwards compatibility with previous versions and delivering different results.
-  - It is extremely important for software authors/package maintainers to be scrupulous in documenting changes occurring in new releases of packages, especially if it may break reproducibility.
-  - closed-source packages. Versioning can cause ven bigger headaches with closed-source software. Vendors can completely change the algorithms inside the 'Black box' and the user will not know what has changed and will be unable to discover (e.g. by access to the source code) it either.
-  - changes in databases and other online resources lead to changes in results. There are other changes that are beyond a researchers influence. Gene Ontologies are updated and can change from the time of the author's research based upon other publications that curators have used (reflecting the best knowledge currently available). Genome data changes as e.g. Human Genome concensuses that are updated and annotations (both manually curated and compuationally generated) change accordingly.
+  - It is extremely important for software authors/package maintainers to be scrupulous in documenting changes occurring in new releases of packages, especially if it may break reproducibility. The good programming practice of unit testing e.g. pytest in Python should be encouraged during software development. Another driver for good documentation is the acceptance that people move on from projects (and sometimes completely leave science) and may no longer be willing or able to offer support for a tool or package.
+http://phdcomics.com/comics.php?f=1689
+  - closed-source packages. Versioning can cause ven bigger headaches with closed-source software. Vendors can completely change the algorithms inside the 'Black box' and the user will not know what has changed and will be unable to discover (e.g. by access to the source code) it either. This approach often also proliferates proprietary data formats which also hinder reproducibility and usage at a later date (See paper on the Domesday Project).
+  - changes in databases and other online resources lead to changes in results. There are other changes that are beyond a researchers influence. Gene Ontologies are updated and can change from the time of the author's research based upon other publications that curators have used (reflecting the best knowledge currently available). Genome data changes as e.g. Human Genome concensuses that are updated and annotations (both manually curated and compuationally derived) change accordingly.
   - assumptions underlying analysis
   - fragile analyses
   - cost of reproducibility, lack of benefits
+Clearly reproducibility can take considerable effort and the benefits are not manifestly clear.
 
 #### Paths Forward ####
 
