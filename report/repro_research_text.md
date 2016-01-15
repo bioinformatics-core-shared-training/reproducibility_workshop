@@ -30,6 +30,7 @@ Greater stability in our confidence in conclusions drawn from bioinformatic anal
 #### Problem Areas ####
 
   - versions of software. Programs by their very nature evolve and develop with new features and different libraries being developed and used. Whilst this is great as far as developing new features and capabilities, it comes at the cost of potentially wrecking backwards compatibility with previous versions and delivering different results.
+  - Computational efficiency - Many released tools have large memory footprints (e.g. Assemblers) requiring high-spec computers or clusters as the computational bar to reproducing the analysis. This precludes a large segment of people as they either do not possess/have access to/can afford such resources. It is possible to develop software with low memory footprints as a design goal. An example of this is the GATB: Genome Assembly & Analysis Tool Box.
   - It is extremely important for software authors/package maintainers to be scrupulous in documenting changes occurring in new releases of packages, especially if it may break reproducibility. The good programming practice of unit testing e.g. pytest in Python should be encouraged during software development. Another driver for good documentation is the acceptance that people move on from projects (and sometimes completely leave science) and may no longer be willing or able to offer support for a tool or package.
 http://phdcomics.com/comics.php?f=1689
   - closed-source packages. Versioning can cause ven bigger headaches with closed-source software. Vendors can completely change the algorithms inside the 'Black box' and the user will not know what has changed and will be unable to discover (e.g. by access to the source code) it either. This approach often also proliferates proprietary data formats which also hinder reproducibility and usage at a later date (See paper on the Domesday Project).
@@ -55,3 +56,6 @@ Clearly reproducibility can take considerable effort and the benefits are not ma
 Domesday Redux: The rescue of the BBC Domesday Project videodiscs, Jeffrey Darlington, Andy Finney and Adrian Pearce
 Publication Date: 30-July-2003, Publication: Ariadne Issue 36
 Originating URL: http://www.ariadne.ac.uk/issue36/tna/
+E. Drezen, G. Rizk, R. Chikhi, C. Deltel, C. Lemaitre, P. Peterlongo, D. Lavenier, GATB: Genome Assembly & Analysis Tool Box, Bioinformatics, 2014 http://bioinformatics.oxfordjournals.org/content/early/2014/06/30/bioinformatics.btu406.abstract?keytype=ref&ijkey=koXTzqbf4Nt1kVO
+Sandve GK, Nekrutenko A, Taylor J, Hovig E (2013) Ten Simple Rules for Reproducible Computational Research. PLoS Comput Biol 9(10): e1003285. doi:10.1371/journal.pcbi.1003285
+
