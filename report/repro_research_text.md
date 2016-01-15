@@ -59,3 +59,27 @@ Originating URL: http://www.ariadne.ac.uk/issue36/tna/
 E. Drezen, G. Rizk, R. Chikhi, C. Deltel, C. Lemaitre, P. Peterlongo, D. Lavenier, GATB: Genome Assembly & Analysis Tool Box, Bioinformatics, 2014 http://bioinformatics.oxfordjournals.org/content/early/2014/06/30/bioinformatics.btu406.abstract?keytype=ref&ijkey=koXTzqbf4Nt1kVO
 Sandve GK, Nekrutenko A, Taylor J, Hovig E (2013) Ten Simple Rules for Reproducible Computational Research. PLoS Comput Biol 9(10): e1003285. doi:10.1371/journal.pcbi.1003285
 
+### Resources ###
+
+* FASTQ variants  https://en.wikipedia.org/wiki/FASTQ_format 
+* Sweave https://www.statistik.lmu.de/~leisch/Sweave/ 
+* Friedrich Leisch. Sweave: Dynamic generation of statistical reports using literate data analysis. In Wolfgang H�rdle and Bernd R�nz, editors,�Compstat 2002 - Proceedings in Computational Statistics, pages 575-580. Physica Verlag, Heidelberg, 2002. ISBN 3-7908-1517-9. [�bib�|�PDF�]
+* Knitr http://yihui.name/knitr/ 
+* LaTEX https://www.latex-project.org/ 
+* Rmarkdown http://rmarkdown.rstudio.com/ 
+* Jupyter http://jupyter.org/ 
+* Docker https://www.docker.com/ 
+* Docker Toolbox https://www.docker.com/docker-toolbox 
+* Shiny  http://shiny.rstudio.com/ 
+* Galaxy https://galaxyproject.org/ 
+* Rcommander http://www.rcommander.com/ 
+* Bioconductor https://www.bioconductor.org/ 
+* QIIME http://qiime.org/ 
+* Packrat https://rstudio.github.io/packrat/ 
+* VirtualBox https://www.virtualbox.org/ 
+* Bio-Linux http://environmentalomics.org/bio-linux/ 
+* Git & GitHub https://git-scm.com/ & https://github.com/ 
+* Starcluster http://star.mit.edu/cluster/ 
+* Reproducibility Workshop presentations http://bioinformatics-core-shared-training.github.io/reproducibility_workshop/ 
+* Martijn Wieling presentations http://www.martijnwieling.npresentations 
+
