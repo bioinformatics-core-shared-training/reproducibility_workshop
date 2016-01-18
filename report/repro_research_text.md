@@ -53,11 +53,14 @@ Clearly reproducibility can take considerable effort and the benefits are not ma
   - robust analysis methods (varied parameters, paired analyses, etc)
 
 ### References ###
-Domesday Redux: The rescue of the BBC Domesday Project videodiscs, Jeffrey Darlington, Andy Finney and Adrian Pearce
+* Domesday Redux: The rescue of the BBC Domesday Project videodiscs, Jeffrey Darlington, Andy Finney and Adrian Pearce
 Publication Date: 30-July-2003, Publication: Ariadne Issue 36
 Originating URL: http://www.ariadne.ac.uk/issue36/tna/
-E. Drezen, G. Rizk, R. Chikhi, C. Deltel, C. Lemaitre, P. Peterlongo, D. Lavenier, GATB: Genome Assembly & Analysis Tool Box, Bioinformatics, 2014 http://bioinformatics.oxfordjournals.org/content/early/2014/06/30/bioinformatics.btu406.abstract?keytype=ref&ijkey=koXTzqbf4Nt1kVO
-Sandve GK, Nekrutenko A, Taylor J, Hovig E (2013) Ten Simple Rules for Reproducible Computational Research. PLoS Comput Biol 9(10): e1003285. doi:10.1371/journal.pcbi.1003285
+* E. Drezen, G. Rizk, R. Chikhi, C. Deltel, C. Lemaitre, P. Peterlongo, D. Lavenier, GATB: Genome Assembly & Analysis Tool Box, Bioinformatics, 2014 http://bioinformatics.oxfordjournals.org/content/early/2014/06/30/bioinformatics.btu406.abstract?keytype=ref&ijkey=koXTzqbf4Nt1kVO
+* Sandve GK, Nekrutenko A, Taylor J, Hovig E (2013) Ten Simple Rules for Reproducible Computational Research. PLoS Comput Biol 9(10): e1003285. doi:10.1371/journal.pcbi.1003285
+* The Importance of Reproducible Research in High-Throughput Biology: Case Studies in Forensic Bioinformatics
+author: Keith A. Baggerly, Graduate School of Biomedical Sciences, University of Texas Health Science Center at Houston 
+published: Oct. 11, 2010,   recorded: September 2010,   http://videolectures.net/cancerbioinformatics2010_baggerly_irrh/ 
 
 ### Resources ###
 
