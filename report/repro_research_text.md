@@ -53,6 +53,9 @@ Clearly reproducibility can take considerable effort and the benefits are not ma
   - robust analysis methods (varied parameters, paired analyses, etc)
 
 ### References ###
+* Nature Reviews Drug Discovery 10, 712 (September 2011) | doi:10.1038/nrd3439-c1
+Believe it or not: how much can we rely on published data on potential drug targets?
+Florian Prinz1, Thomas Schlange2 & Khusru Asadullah3
 * Domesday Redux: The rescue of the BBC Domesday Project videodiscs, Jeffrey Darlington, Andy Finney and Adrian Pearce
 Publication Date: 30-July-2003, Publication: Ariadne Issue 36
 Originating URL: http://www.ariadne.ac.uk/issue36/tna/
